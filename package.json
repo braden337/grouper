@@ -1,0 +1,16 @@
+{
+  "name": "student_grouper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "student_groups.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "^4.17.20",
+    "markdown-table": "^2.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
