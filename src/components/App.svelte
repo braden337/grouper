@@ -26,7 +26,7 @@
 </style>
 
 <section id="input">
-  <h4>Groups of {groupsOf} people</h4>
+  <h4>Groups of ~{groupsOf} people</h4>
   <input type="range" bind:value={groupsOf} min="2" max={namesArr.length / 2} />
   <textarea
     bind:value={names}
