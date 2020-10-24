@@ -2,5 +2,6 @@ node_modules
 .vscode
 *-lock.json
 names.txt
+riders.txt
 dist
 .cache

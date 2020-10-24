@@ -53,16 +53,27 @@ body {
 
 header {
   font-size: 2rem;
-  text-align: center;
-  padding: 2rem 0;
+  text-align: left;
+  padding: 2rem 0 0 2rem;
 }
-
 main {
+  padding: 2rem;
+}
+/* main {
   min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+} */
+
+section#input {
+  max-width: min-content;
+  background-color: var(--comment);
+  padding: 1rem;
+  border-radius: 0.2rem;
+  /* margin-left: 2rem; */
+  margin-bottom: 2rem;
 }
 
 textarea#students {
@@ -77,6 +88,7 @@ textarea#students {
 }
 
 pre#arrow {
+  display: none;
   color: var(--arrow);
   padding: 5rem 0;
   transform: rotate(90deg);
@@ -87,12 +99,15 @@ pre#arrow {
 }
 
 section#output {
-  max-width: 45vw;
+  /* max-width: 45vw; */
+  /* margin: 2rem; */
+  border-radius: 0.2rem;
   overflow-x: scroll;
   background-color: var(--comment);
   /* font-family: monospace; */
   /* min-height: calc(16 * 1rem); */
-  min-width: 250px;
+  width: min-content;
+  max-width: 100%;
   /* padding: 1rem; */
   line-height: 1.3rem;
   cursor: pointer;
@@ -106,7 +121,7 @@ section#output:active {
 #output table {
   white-space: nowrap;
   border-spacing: 0rem;
-  background-color: var(--comment);
+  background-color: var(--purple);
   padding: 1rem;
 }
 
@@ -128,7 +143,7 @@ section#output:active {
   background-color: var(--background);
 }
 
-@media screen and (min-width: 920px) {
+/* @media screen and (min-width: 920px) {
   header {
     text-align: left;
     padding: 2rem;
@@ -145,4 +160,4 @@ section#output:active {
     -ms-transform: rotate(0);
     -o-transform: rotate(0);
   }
-}
+} */
